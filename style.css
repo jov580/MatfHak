@@ -10,10 +10,12 @@ body {
     width: 100%;
     font-size: 16px;
     background: #ecf5ff;
-    color: #777;
+    color: rgb(4, 4, 98);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c35684ae69&attid=0.3&permmsgid=msg-f:1762648620527754993&th=18762f94da639ef1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_Wn7ikNwnO4PWLNZd5PhXVxzrcFvwj-Kzgg6i10SeAazX_FLLKtgJrXxhzJBZsVp8LoJzaV1iyCyTZ_diAnat44Y7wPSnUZejGyAtLc4yyqnUNrzdmJLddfLI&disp=emb&realattid=ii_lg8jng312');
+
 }
 
 .container {
@@ -22,6 +24,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.content-wrapper {
+    overflow: hidden;
+    overflow-x: overlay;
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    padding-top: 50px;
 }
 
 .item-container {
