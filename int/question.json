@@ -1,0 +1,22 @@
+{
+  "results": [
+      {
+          "question": "What is the capital of France?",
+          "correct_answer": "Paris",
+          "incorrect_answers": [
+              "Madrid",
+              "Berlin",
+              "Rome"
+          ]
+      },
+      {
+          "question": "What is the tallest mammal?",
+          "correct_answer": "Giraffe",
+          "incorrect_answers": [
+              "Elephant",
+              "Kangaroo",
+              "Whale"
+          ]
+      }
+  ]
+}
